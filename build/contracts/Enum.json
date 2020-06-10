@@ -1,0 +1,147 @@
+{
+  "contractName": "Enum",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158204a16a31f84b26d65f7f290bfca279ebb1424ca962432a4b3017daaf295d3ff7164736f6c634300050e0032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158204a16a31f84b26d65f7f290bfca279ebb1424ca962432a4b3017daaf295d3ff7164736f6c634300050e0032",
+  "sourceMap": "123:79:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;123:79:7;;;;;;;",
+  "deployedSourceMap": "123:79:7:-;;;;;",
+  "source": "pragma solidity >=0.5.0 <0.7.0;\n\n\n/// @title Enum - Collection of enums\n/// @author Richard Meissner - <richard@gnosis.pm>\ncontract Enum {\n    enum Operation {\n        Call,\n        DelegateCall\n    }\n}\n",
+  "sourcePath": "/Users/pa/DuBoisGold/safe-contracts/contracts/common/Enum.sol",
+  "ast": {
+    "absolutePath": "/Users/pa/DuBoisGold/safe-contracts/contracts/common/Enum.sol",
+    "exportedSymbols": {
+      "Enum": [
+        1990
+      ]
+    },
+    "id": 1991,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1986,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:31:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Enum - Collection of enums\n @author Richard Meissner - <richard@gnosis.pm>",
+        "fullyImplemented": true,
+        "id": 1990,
+        "linearizedBaseContracts": [
+          1990
+        ],
+        "name": "Enum",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Enum.Operation",
+            "id": 1989,
+            "members": [
+              {
+                "id": 1987,
+                "name": "Call",
+                "nodeType": "EnumValue",
+                "src": "168:4:7"
+              },
+              {
+                "id": 1988,
+                "name": "DelegateCall",
+                "nodeType": "EnumValue",
+                "src": "182:12:7"
+              }
+            ],
+            "name": "Operation",
+            "nodeType": "EnumDefinition",
+            "src": "143:57:7"
+          }
+        ],
+        "scope": 1991,
+        "src": "123:79:7"
+      }
+    ],
+    "src": "0:203:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/pa/DuBoisGold/safe-contracts/contracts/common/Enum.sol",
+    "exportedSymbols": {
+      "Enum": [
+        1990
+      ]
+    },
+    "id": 1991,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1986,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:31:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Enum - Collection of enums\n @author Richard Meissner - <richard@gnosis.pm>",
+        "fullyImplemented": true,
+        "id": 1990,
+        "linearizedBaseContracts": [
+          1990
+        ],
+        "name": "Enum",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Enum.Operation",
+            "id": 1989,
+            "members": [
+              {
+                "id": 1987,
+                "name": "Call",
+                "nodeType": "EnumValue",
+                "src": "168:4:7"
+              },
+              {
+                "id": 1988,
+                "name": "DelegateCall",
+                "nodeType": "EnumValue",
+                "src": "182:12:7"
+              }
+            ],
+            "name": "Operation",
+            "nodeType": "EnumDefinition",
+            "src": "143:57:7"
+          }
+        ],
+        "scope": 1991,
+        "src": "123:79:7"
+      }
+    ],
+    "src": "0:203:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.14+commit.01f1aaa4.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2020-06-10T04:22:48.545Z"
+}

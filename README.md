@@ -1,8 +1,48 @@
 Gnosis Safe Contracts
 =====================
 
-[![npm version](https://badge.fury.io/js/%40gnosis.pm%2Fsafe-contracts.svg)](https://badge.fury.io/js/%40gnosis.pm%2Fsafe-contracts)
-[![Build Status](https://travis-ci.org/gnosis/safe-contracts.svg?branch=development)](https://travis-ci.org/gnosis/safe-contracts)
+Compiling for DuboisGold
+------------------------
+### Node v10.0.0 virtual environment (optional)
+
+Installation on MacOS requires Node v10.0.0 and can fail on later versions.
+
+```bash
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install nodeenv
+$ nodeenv --node=10.0.0 nenv
+$ source nenv/bin/activate
+```
+
+### Compile contracts from the latest audited release Version 1.1.1
+
+#### Checkout v1.1.1
+```bash
+$ git checkout v1.1.1
+
+HEAD is now at 892448e Merge pull request #160 from gnosis/deploy_1_1_1
+```
+
+#### Install requirements with npm
+```bash
+$ npm install
+```
+
+#### Compile contracts with truffle
+```bash
+npx truffle compile
+```
+Bytecode and ABI available in ./build
+
+MasterCopy -> GnosisSafe.json : use the contract address already deployed by Gnosis team (see .openzeppelin)
+
+Create User Gnosis multisig -> ProxyFactory.json
+
+User Gnosis multisig -> Proxy.json
+
+***********************************************************************************
+***********************************************************************************
 
 Install
 -------
